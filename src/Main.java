@@ -3,5 +3,8 @@
 public class Main {
     public static void main(String[] args) {
          System.out.println("Hello World");
+         Sum s = new Sum(10, 12);
+         int sum = s.sum();
+        System.out.println(sum);
         }
     }
